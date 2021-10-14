@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #333366;  /* A64253 861657  #333366*/
+  margin:0;
+  color:#fff;
+}
+
+
+
+nav {
+  color: #fff;
+  background-color:#A64253;
+  display: flex;
+  justify-content: flex-end;
+  padding:15px;
+}
+
+nav a {
+  color:#fff;
+  margin-left:20px;
+  text-decoration: none;
+}
+
+header { 
+  background-image: url(/img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header::after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity:0.1;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size:60px;
+  margin-top: 0;
+
+}
+
+header p {
+  font-size: 45px;
+  margin: 5px;
+}
+
+li {
+  list-style:none;
+}
+
+section {
+  padding: 30px;
+  text-align:center;
+}
+
+section h2 {
+  margin-bottom:0;
+}
+
+section p {
+  margin-top:0;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links a {
+  color: #fff;
+  font-size:30px;
+  margin: 0 10px;
+}
+
+footer {
+  background-color:#A64253;
+  color: #fff;
+  padding:10px;
+  text-align: center;
+  
+}
+
+footer .fa-heart {
+  color: red;
+}
